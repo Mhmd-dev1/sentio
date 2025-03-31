@@ -24,10 +24,9 @@ export const Hero = () => {
         </h1>
         <p className="ml-15 font-medium text-lg mt-2 max-w-[500px] leading-relaxed text-left ">
           Men AI-Infused Fragrance Bottle: This next-generation perfume bottle
-          integrates AI-driven sensors to analyze the user's skin chemistry
-          before dispensing fragrance. Instead of a traditional fixed-scent
-          perfume, this bottle adjusts and customizes the fragrance blend in
-          real time.{" "}
+          integrates AI-driven sensors to analyze the user skin chemistry before
+          dispensing fragrance. Instead of a traditional fixed-scent perfume,
+          this bottle adjusts and customizes the fragrance blend in real time.{" "}
         </p>
       </div>
     </section>
