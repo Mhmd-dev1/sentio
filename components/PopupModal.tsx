@@ -1,6 +1,4 @@
-// components/MobilePopupModal.tsx
 "use client";
-
 import { useEffect, useState } from "react";
 
 export default function MobilePopupModal() {
@@ -13,9 +11,8 @@ export default function MobilePopupModal() {
       const isMobileDevice = window.innerWidth <= 1024; // Adjust breakpoint as needed
       setIsMobile(isMobileDevice);
 
-      if (isMobileDevice && !localStorage.getItem("mobilePopupShown")) {
+      if (isMobileDevice) {
         setIsOpen(true);
-        localStorage.setItem("mobilePopupShown", "true");
       }
     };
 
@@ -47,7 +44,7 @@ export default function MobilePopupModal() {
             />
           </svg>
           <span>
-            Error! The website is not ready for mobile phones right now Open it
+            Alert! The website is not ready for mobile phones right now Open it
             on your Laptop
           </span>
         </div>
