@@ -85,7 +85,7 @@ export const Hero = () => {
             <Image
               width={1500}
               height={1500}
-              src="/product-img.jpg"
+              src="/Product-img.jpg"
               className="rotate-30 mt-10  transition-transform duration-300 hover:rotate-0 hover:scale-110 hover:z-10"
               alt="AI bottle product "
             />

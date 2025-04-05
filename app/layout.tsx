@@ -4,6 +4,8 @@ import MobilePopupModal from "@/components/PopupModal";
 import { Navbar } from "@/components/Navbar";
 import { Playfair_Display } from "next/font/google";
 import { Rubik } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -40,6 +42,8 @@ export default function RootLayout({
         <Navbar />
         {children}
         <MobilePopupModal />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
