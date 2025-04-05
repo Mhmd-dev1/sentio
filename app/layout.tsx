@@ -34,7 +34,9 @@ export default function RootLayout({
         <link rel="icon" href="/test.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/test.ico" type="image/x-icon" />
       </head>
-      <body className={` antialiased`}>
+      <body
+        className={` ${playfairDisplay.variable} ${rubik.variable} antialiased`}
+      >
         <Navbar />
         {children}
         <MobilePopupModal />

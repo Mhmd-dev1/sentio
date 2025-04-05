@@ -146,8 +146,8 @@ export const Features = () => {
         viewport={{ once: true, margin: "-50px" }}
       >
         <p className="text-2xl italic  text-gray-700">
-          "Where technology meets artistry: watch your signature scent come to
-          life."
+          &quot;Where technology meets artistry: watch your signature scent come
+          to life.&quot;
         </p>
       </motion.div>
     </section>
